@@ -1,0 +1,2 @@
+SELECT DISTINCT CITY FROM STATION
+where city REGEXP '[^aeiou]$';
